@@ -1,0 +1,16 @@
+body {
+    background: rgba(226, 207, 157, 0.7);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+#title {
+    color: rgb(6, 6, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgb(20, 20, 214);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;

@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Tour</title>
+    <link rel="icon" href="waterfall.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>BOOK A TOUR</h1>
+    <h2>To book a tour kindly fill the form below</h2>
+    <form action="insert.php"
+    method="POST">
+    <fieldset>
+    <legend>PERSONAL INFO</legend>
+
+    <p>
+        <label for="username">username</label>
+        <input type="username" name="username" id="username">
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password"
+        id="Password" placeholder="type password" required> 
+        </p>
+
+        <p>
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email">
+        </p>
+   
+        <label for="phone">Phone:</label>
+        <input type="tel" name="Phone"
+        id="Phone" placeholder="55555-555555" required>
+        </p>
+        <p></p>
+<label for="FirstName">First Name:</label>
+<input type="text" name="FirstName"
+id="FirstName" placeholder="John" required>
+<p>
+<label for="LastName">Last Name:</label>
+<input type="text" name="LastName"
+id="LastName" placeholder="Johnson" required>
+</p>
+<p>
+
+</p>
+<label for="Dateofbirth">Date of Birth:Date</label>
+<input type="number" name="Date"
+id="Date" min="1" max="31" step="1" value="1">
+<label for="Month">Month</label>
+<input type="number" name="Month"
+id="Month" min="1" max="12" step="1" value="12">
+<label for="Year">Year</label>
+<input type="number" name="Year"
+id="Year" min="1950" max="2022" step="1" value="1950">
+</p>
+<p>
+    <label for="Package">Select a Package</label>
+    <select name="package" id="Package">
+        <option value="Regular Tour">Regular Tour</option>
+        <option value="Silver Tour">Silver Tour</option>
+        <option value="Classic Tour">Classic Tour</option>
+        <option value="Premium Tour">Premium Tour</option>
+        
+    </select>
+    <p></p>
+        
+        
+       
+       
+                <p>
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+                    </p>
+            </fieldset>
+           
+</form>
+    
+</body>
+</html>
